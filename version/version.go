@@ -17,4 +17,6 @@ package version
 var (
 	// Version of Kogito Operator
 	Version = "7.11.0"
+	// PAMVersion used for metering labels
+	PAMVersion = "7.10"
 )

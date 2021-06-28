@@ -3,13 +3,13 @@ module github.com/kiegroup/rhpam-kogito-operator
 go 1.14
 
 require (
-	github.com/RHsyseng/operator-utils v0.0.0-20200304191317-2425bf382482
+	github.com/RHsyseng/operator-utils v0.0.0-20200506183821-e3b4a2ba9c30
 	github.com/cucumber/godog v0.11.0
 	github.com/go-openapi/spec v0.19.14
-	github.com/infinispan/infinispan-operator v0.0.0-20210106103300-03aa6d76d1b2
-	github.com/integr8ly/grafana-operator/v3 v3.4.0
+	github.com/infinispan/infinispan-operator v0.0.0-20210621093106-4662500f4ae1
+	github.com/integr8ly/grafana-operator/v3 v3.10.0
 	github.com/keycloak/keycloak-operator v0.0.0-20200917060808-9858b19ca8bf
-	github.com/kiegroup/kogito-operator v0.12.1-0.20210531140744-03fa70509895
+	github.com/kiegroup/kogito-operator v0.12.1-0.20210624102803-33e6b074674e
 	github.com/mongodb/mongodb-kubernetes-operator v0.3.0
 	github.com/onsi/ginkgo v1.14.1
 	github.com/onsi/gomega v1.10.2
