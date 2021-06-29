@@ -1113,8 +1113,6 @@ github.com/kevinburke/ssh_config v0.0.0-20190725054713-01f96b0aa0cd h1:Coekwdh0v
 github.com/kevinburke/ssh_config v0.0.0-20190725054713-01f96b0aa0cd/go.mod h1:CT57kijsi8u/K/BOFA39wgDQJ9CxiF4nAY/ojJ6r6mM=
 github.com/keycloak/keycloak-operator v0.0.0-20200917060808-9858b19ca8bf h1:Sfwm3zLvNUHqG8VO96dpAf+MvB4/XkzDhrVtCX+xvwo=
 github.com/keycloak/keycloak-operator v0.0.0-20200917060808-9858b19ca8bf/go.mod h1:8eqyE5GxbqaKEqEy1BgPAo3UaZoJDZ0O9mHv+hBN+F8=
-github.com/kiegroup/kogito-operator v0.12.1-0.20210624102803-33e6b074674e h1:JhpLIsds/6HW1EWjmRhCfd/ZI71wmCEQbpSCEo+cs+c=
-github.com/kiegroup/kogito-operator v0.12.1-0.20210624102803-33e6b074674e/go.mod h1:RtpwPxnMbYNOJ0Q2EX6TrRUGGrZYuOzgFmUIGMpd9Ko=
 github.com/kisielk/errcheck v1.1.0/go.mod h1:EZBBE59ingxPouuu3KfxchcWSUPOHkagtvWXihfKN4Q=
 github.com/kisielk/errcheck v1.2.0/go.mod h1:/BMXB+zMLi60iA8Vv6Ksmxu/1UDYcXs4uQLJ+jE2L00=
 github.com/kisielk/errcheck v1.5.0/go.mod h1:pFxgyoBC7bSaBwPgfKdkLd5X25qrDl4LWUI2bnpBCr8=
@@ -1730,6 +1728,8 @@ github.com/urfave/cli v1.20.0/go.mod h1:70zkFmudgCuE/ngEzBv17Jvp/497gISqfk5gWijb
 github.com/urfave/cli v1.22.1/go.mod h1:Gos4lmkARVdJ6EkW0WaNv/tZAAMe9V7XWyB60NtXRu0=
 github.com/urfave/negroni v1.0.0/go.mod h1:Meg73S6kFm/4PpbYdq35yYWoCZ9mS/YSx+lKnmiohz4=
 github.com/uudashr/gocognit v1.0.1/go.mod h1:j44Ayx2KW4+oB6SWMv8KsmHzZrOInQav7D3cQMJ5JUM=
+github.com/vaibhavjainwiz/kogito-operator v0.12.1-0.20210630144744-8449b389c0dc h1:eZoybrq3BcXlRskV8yryTKFaUuaCizbQ9qASTpROfyY=
+github.com/vaibhavjainwiz/kogito-operator v0.12.1-0.20210630144744-8449b389c0dc/go.mod h1:RtpwPxnMbYNOJ0Q2EX6TrRUGGrZYuOzgFmUIGMpd9Ko=
 github.com/valyala/bytebufferpool v1.0.0/go.mod h1:6bBcMArwyJ5K/AmCkWv1jt77kVWyCJ6HpOuEn7z0Csc=
 github.com/valyala/fasthttp v1.2.0/go.mod h1:4vX61m6KN+xDduDNwXrhIAVZaZaZiQ1luJk8LWSxF3s=
 github.com/valyala/fasttemplate v1.0.1/go.mod h1:UQGH1tvbgY+Nz5t2n7tXsz52dQxojPUpymEIMZ47gx8=

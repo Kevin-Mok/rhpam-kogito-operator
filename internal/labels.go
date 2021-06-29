@@ -18,15 +18,16 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/kiegroup/kogito-operator/core/infrastructure"
 	"github.com/kiegroup/rhpam-kogito-operator/version"
 )
 
 var meteringLabels = map[string]string{
 	"com.company":   "Red_Hat",
 	"rht.prod_name": "Red_Hat_Process_Automation",
-	"rht.prod_ver":  trimMinorVersion(version.Version),
+	"rht.prod_ver":  infrastructure.GetKogitoImageVersion(version.Version),
 	"rht.comp":      "PAM",
-	"rht.comp_ver":  version.PAMVersion,
+	"rht.comp_ver":  infrastructure.GetKogitoImageVersion(version.PAMVersion),
 	"rht.subcomp":   "rhpam-kogito-runtime",
 	"rht.subcomp_t": "application",
 }
@@ -40,6 +41,11 @@ func SetMeteringLabels(deploymentLabels map[string]string) map[string]string {
 		deploymentLabels[labelKey] = labelValue
 	}
 	return deploymentLabels
+}
+
+// GetMeteringLabels returns metering labels
+func GetMeteringLabels() map[string]string {
+	return meteringLabels
 }
 
 func trimMinorVersion(version string) string {
